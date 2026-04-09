@@ -134,6 +134,8 @@ svg {
 
   .icon {
     &-arrow {
+      width: 24px;
+      height: 24px;
       fill: $primary;
     }
 
@@ -141,15 +143,15 @@ svg {
       fill: none;
       stroke: $primary;
       display: none;
-      width: 40px;
-      height: 40px;
+      width: 24px;
+      height: 24px;
     }
 
     &-play {
       fill: $primary;
       display: block;
-      width: 40px;
-      height: 40px;
+      width: 24px;
+      height: 24px;
     }
   }
 
@@ -323,6 +325,7 @@ svg {
   }
 
   .icon {
+
     &-repeat,
     &-sound {
       width: 24px;
@@ -364,7 +367,7 @@ svg {
   position: absolute;
   left: 0;
   top: 100%;
-  background: $primary;
+  background: #fff;
   padding: 15px;
   border-radius: 6px;
 
