@@ -26,9 +26,24 @@ $primary: #ff874a;
   }
 }
 
+@font-face {
+  font-family: "Ubuntu Regular";
+  src: url('../fonts/Ubuntu-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Ubuntu Medium";
+  src: url('../fonts/Ubuntu-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Ubuntu Bold";
+  src: url('../fonts/Ubuntu-Bold.ttf') format('truetype');
+}
+
 body {
   background: #111010;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu Regular", sans-serif;
   overflow-x: hidden;
 }
 
@@ -51,7 +66,7 @@ body {
 }
 
 h1 {
-  font-weight: 700;
+  font-family: "Ubuntu Bold";
   font-size: 32px;
   line-height: 37px;
   color: #ffffff;
@@ -91,7 +106,7 @@ svg {
     }
 
     &__track {
-      font-weight: 700;
+      font-family: "Ubuntu Bold";
       font-size: 24px;
       line-height: 28px;
       color: #ffffff;
@@ -99,14 +114,14 @@ svg {
     }
 
     &__group {
-      font-weight: 400;
+      font-family: "Ubuntu Regular";
       font-size: 14px;
       line-height: 16px;
       color: #dbf2db;
     }
 
     &__year {
-      font-weight: 400;
+      font-family: "Ubuntu Regular";
       font-size: 12px;
       line-height: 14px;
       color: #dbf2db;
@@ -209,7 +224,7 @@ svg {
   justify-content: space-between;
 
   span {
-    font-weight: 400;
+    font-family: "Ubuntu Regular";
     font-size: 12px;
     line-height: 14px;
     color: rgba(255, 255, 255, 0.5);
@@ -218,7 +233,7 @@ svg {
 
 .list {
   &-title {
-    font-weight: 400;
+    font-family: "Ubuntu Regular";
     font-size: 22px;
     line-height: 25px;
     color: #dbf2db;
@@ -255,7 +270,7 @@ svg {
   }
 
   p {
-    font-weight: 400;
+    font-family: "Ubuntu Regular";
     font-size: 12px;
     line-height: 14px;
     color: rgba(255, 255, 255, 0.5);
@@ -270,14 +285,14 @@ svg {
   }
 
   &-group {
-    font-weight: 400;
+    font-family: "Ubuntu Regular";
     font-size: 12px;
     line-height: 14px;
     color: #dbf2db;
   }
 
   &-track {
-    font-weight: 500;
+    font-family: "Ubuntu Medium";
     line-height: 18px;
     color: #ffffff;
     margin-top: 2px;
