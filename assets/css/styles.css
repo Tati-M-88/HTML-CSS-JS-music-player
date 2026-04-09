@@ -306,4 +306,10 @@ svg {
 }
 .volume input {
   cursor: pointer;
+}
+
+.item .icon-play {
+  display: block;
+  width: 24px;
+  height: 24px;
 }/*# sourceMappingURL=styles.css.map */
